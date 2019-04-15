@@ -1,0 +1,15 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/build/scss/AdminLTE-raw';
+
+.required:after {
+  color: #e32;
+  content: ' *';
+  display:inline;
+}
